@@ -1,14 +1,15 @@
 {
-  "name": "URL Engelleme Servisi",
+  "name": "URLSOM Block Open Source Edition",
+  "short_name": "URLSOM Block Open Source Edition",
   "version": "0.0.1",
-  "description": "URL Engelleme Servisi",
+  "description": "USOM list-based (Turkish National Cyber Incident Response Center) Scam Website Blocker!",
   "permissions": [
     "declarativeNetRequest",
     "tabs",
     "scripting"
   ],
   "action": {
-    "default_title": "URL Engelleme Servisi",
+    "default_title": "URLSOM Block Open Source Edition",
     "default_popup": "popup.html"
   },
   "background": {
@@ -20,5 +21,11 @@
       "https://www.usom.gov.tr/*"
     ]
   },
+  "icons": {
+    "16": "logo/usonlogo_16x16.png",
+    "32": "logo/usonlogo_32x32.png",
+    "64": "logo/usonlogo_64x64.png"
+  },
+  "incognito": "split",
   "manifest_version": 3
 }
